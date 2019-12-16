@@ -14,9 +14,16 @@ export default class Hero extends React.Component {
         <style jsx>
           {`
             .hero {
-              margin-bottom: 10rem;
+              margin-bottom: 10rem;             
+
+            }
+            .banner {
+              text-align: center;
+              background-color: #000000;
+              overflow: hidden;
             }
             .banner img {
+             
               max-width: 100%;
             }
             .main-item {
