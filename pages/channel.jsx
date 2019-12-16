@@ -3,7 +3,7 @@ import 'isomorphic-fetch'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import PodcastItems from '../components/PodcastItems'
-import Error from 'next/error'
+import Error from './_error'
 
 export default class extends React.Component {
   static async getInitialProps({ query, res }) {
