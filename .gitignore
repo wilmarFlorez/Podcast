@@ -3,7 +3,7 @@
 # Edit at https://www.gitignore.io/?templates=node,react
 
 # vscode
-.vscode
+.vscode/
 
 ### Node ###
 # Logs
